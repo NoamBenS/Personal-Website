@@ -9,10 +9,7 @@
       />
     </div>
     <div v-if="stat.registered" class="row">
-      <q-img
-        src="public\catsleep.jpeg"
-        style="height: 500px; max-width: 400px"
-      />
+      <q-img src="catsleep.jpeg" style="height: 500px; max-width: 400px" />
     </div>
   </q-page>
 </template>
