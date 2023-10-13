@@ -9,11 +9,10 @@
       />
     </div>
     <div v-if="stat.registered" class="row">
-      <img
+      <q-img
         src="public\catsleep.jpeg"
-        alt="he's so precious"
-        width="400"
-        height="500"
+        spinner-color="white"
+        style="height: 500px; max-width: 400px"
       />
     </div>
   </q-page>
