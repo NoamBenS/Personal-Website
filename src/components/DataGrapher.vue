@@ -9,7 +9,12 @@
       />
     </div>
     <div v-if="stat.registered" class="row">
-      <graphs-actual class="col-6" />
+      <img
+        src="public\catsleep.jpeg"
+        alt="he's so precious"
+        width="400"
+        height="500"
+      />
     </div>
   </q-page>
 </template>
@@ -20,10 +25,6 @@ import { reactive } from 'vue';
 import GraphsActual from 'components/GraphsActual.vue';
 
 export default defineComponent({
-  name: 'DataGrapher',
-  components: {
-    'graphs-actual': GraphsActual,
-  },
   methods: {
     toggleRegister() {
       this.stat.registered = true;
