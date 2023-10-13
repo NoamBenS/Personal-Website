@@ -10,9 +10,6 @@
     </div>
     <div v-if="stat.registered" class="row">
       <graphs-actual class="col-6" />
-      <graphs-actual class="col-6" />
-      <graphs-actual class="col-6" />
-      <graphs-actual class="col-6" />
     </div>
   </q-page>
 </template>

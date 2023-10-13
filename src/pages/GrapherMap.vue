@@ -1,7 +1,9 @@
 <template>
   <q-page class="main">
-    <q-btn class="gohome" color="black" label="go back to home" to="/" />
-    <DataGrapher> </DataGrapher>
+    <div>
+      <q-btn class="gohome" color="black" label="go back to home" to="/" />
+    </div>
+    <DataGrapher></DataGrapher>
   </q-page>
 </template>
 
