@@ -11,7 +11,6 @@
     <div v-if="stat.registered" class="row">
       <q-img
         src="public\catsleep.jpeg"
-        spinner-color="white"
         style="height: 500px; max-width: 400px"
       />
     </div>
