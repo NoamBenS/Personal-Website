@@ -11,9 +11,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Quasar App </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
+        <q-toolbar-title> Noam Ben Simon </q-toolbar-title>
       </q-toolbar>
     </q-header>
 
@@ -41,20 +39,14 @@ import EssentialLink from 'components/EssentialLink.vue';
 
 const linksList = [
   {
-    title: 'Data Grapher',
-    caption: 'Opens in new page',
-    icon: '',
-    link: '/#/me/graph',
-  },
-  {
     title: 'GitHub',
-    caption: 'My personal GitHub',
+    caption: 'My Personal GitHub',
     icon: '',
     link: 'https://github.com/NoamBenS',
   },
   {
     title: 'LinkedIn',
-    caption: 'Visit my LinkedIn',
+    caption: 'Visit My LinkedIn',
     icon: '',
     link: 'https://www.linkedin.com/in/noam-ben-simon/',
   },

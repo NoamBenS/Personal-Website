@@ -11,9 +11,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Graphing Tester </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
+        <q-toolbar-title> Noam Ben Simon </q-toolbar-title>
       </q-toolbar>
     </q-header>
 

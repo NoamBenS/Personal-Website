@@ -1,12 +1,10 @@
 <template>
   <q-page class="main">
+    <q-img src="catsleep.jpeg" style="height: 500px; max-width: 400px" />
     <div>
       <q-btn class="gohome" color="black" label="go back to home" to="/" />
     </div>
-    <DataGrapher></DataGrapher>
   </q-page>
 </template>
 
-<script setup>
-import DataGrapher from 'components/DataGrapher.vue';
-</script>
+<script setup></script>

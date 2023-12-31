@@ -11,7 +11,7 @@ const routes: RouteRecordRaw[] = [
     path: '/me',
     component: () => import('layouts/BlankLayout.vue'),
     children: [
-      { path: 'graph', component: () => import('pages/GrapherMap.vue') },
+      { path: 'catsleep', component: () => import('pages/CatSleep.vue') },
     ],
   },
 
