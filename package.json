@@ -1,8 +1,8 @@
 {
   "name": "quasar-basic",
   "version": "0.0.1",
-  "description": "Quasar Project To Start",
-  "productName": "Quasar App",
+  "description": "Noam Ben Simon's Site",
+  "productName": "Noam Ben Simon",
   "author": "NoamBenS <noampvb@gmail.com>",
   "private": true,
   "scripts": {
