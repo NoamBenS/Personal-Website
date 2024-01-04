@@ -18,14 +18,38 @@ import { defineComponent } from 'vue';
 const blocks = [
   {
     image: 'catsleep.jpeg',
-    color: 'orange',
+    color: 'redgreen',
+    label: 'Personal Website',
+    directory: '/me/catsleep',
+  },
+  {
+    image: 'catsleep.jpeg',
+    color: 'redgreen',
     label: 'Stock Terminal',
     directory: '/me/catsleep',
   },
   {
     image: 'catsleep.jpeg',
-    color: 'green',
+    color: 'yellowpurple',
     label: 'Personal Website',
+    directory: '/me/catsleep',
+  },
+  {
+    image: 'catsleep.jpeg',
+    color: 'yellowpurple',
+    label: 'Stock Terminal',
+    directory: '/me/catsleep',
+  },
+  {
+    image: 'catsleep.jpeg',
+    color: 'orangeblue',
+    label: 'Personal Website',
+    directory: '/me/catsleep',
+  },
+  {
+    image: 'catsleep.jpeg',
+    color: 'orangeblue',
+    label: 'Stock Terminal',
     directory: '/me/catsleep',
   },
 ];

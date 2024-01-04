@@ -1,5 +1,5 @@
 <template>
-  <q-item class="box" v-bind:style="{ backgroundColor: color }" :to="directory">
+  <q-item class="box" :style="{ background: gradientColor }" :to="directory">
     <q-img
       :src="image"
       style="
@@ -31,6 +31,11 @@ export default defineComponent({
       default: 'black',
     },
 
+    colorType: {
+      type: String,
+      default: 'redgreen',
+    },
+
     label: {
       type: String,
       default: '',
@@ -39,6 +44,48 @@ export default defineComponent({
     directory: {
       type: String,
       default: '/',
+    },
+  },
+  computed: {
+    gradientColor() {
+      const first =
+        this.color == 'redgreen'
+          ? this.redGreen()
+          : this.color == 'yellowpurple'
+          ? this.yellowPurple()
+          : this.orangeBlue();
+      const second =
+        this.color == 'redgreen'
+          ? this.redGreen1()
+          : this.color == 'yellowpurple'
+          ? this.yellowPurple1()
+          : this.orangeBlue1();
+      return `linear-gradient(135deg, ${first}, ${second})`;
+    },
+  },
+  methods: {
+    redGreen() {
+      return '#FFCCCC';
+    },
+
+    redGreen1() {
+      return '#98FB98';
+    },
+
+    yellowPurple() {
+      return '#FFFFE0';
+    },
+
+    yellowPurple1() {
+      return '#B19CD9';
+    },
+
+    orangeBlue() {
+      return '#FFDAB9';
+    },
+
+    orangeBlue1() {
+      return '#ADD8E6';
     },
   },
 });
