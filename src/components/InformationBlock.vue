@@ -1,10 +1,5 @@
 <template>
-  <q-item
-    class="box"
-    v-bind:style="{ backgroundColor: color }"
-    :color="color"
-    :to="directory"
-  >
+  <q-item class="box" v-bind:style="{ backgroundColor: color }" :to="directory">
     <q-img
       :src="image"
       style="
@@ -14,7 +9,9 @@
         width: 60px;
       "
     />
-    <q-item-label>{{ label }}</q-item-label>
+    <q-item class="labelbox">
+      <q-item-label>{{ label }}</q-item-label>
+    </q-item>
   </q-item>
 </template>
 
