@@ -1,10 +1,9 @@
 <template>
   <q-page class="main">
-    <q-img src="catsleep.jpeg" style="height: 500px; max-width: 400px" />
+    <q-img src="catsleep.jpeg" style="height: 500px; width: 400px" />
     <div>
       <q-btn class="gohome" color="black" label="go back to home" to="/" />
     </div>
-
     <InformationBlock
       v-for="block in informationBlocks"
       :key="block.directory"

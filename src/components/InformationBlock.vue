@@ -10,8 +10,8 @@
       style="
         display: flex;
         flex-direction: table-column;
-        height: 50px;
-        width: 20px;
+        height: 100px;
+        width: 60px;
       "
     />
     <q-item-label>{{ label }}</q-item-label>
