@@ -19,13 +19,13 @@ const blocks = [
   {
     image: 'catsleep.jpeg',
     color: 'orange',
-    label: 'Test1',
+    label: 'Stock Terminal',
     directory: '/me/catsleep',
   },
   {
     image: 'catsleep.jpeg',
     color: 'green',
-    label: 'Boy',
+    label: 'Personal Website',
     directory: '/me/catsleep',
   },
 ];

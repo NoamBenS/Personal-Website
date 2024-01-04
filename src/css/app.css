@@ -29,3 +29,28 @@
   padding: 10px;
   margin: 10px;
 }
+
+.label {
+  font-family: 'algoria-light';
+  font-size: large;
+}
+
+@font-face {
+  font-family: cocogoose;
+  src: url('./fonts/Cocogoose Pro Regular Trial.ttf');
+}
+
+@font-face {
+  font-family: algoria-light;
+  src: url('./fonts/AlgoriaLight-nRGdJ.ttf');
+}
+
+@font-face {
+  font-family: sunnyspells;
+  src: url('./fonts/SunnyspellsRegular-MV9ze.otf');
+}
+
+@font-face {
+  font-family: stem-regular;
+  src: url('./fonts/Stem-Regular.otf');
+}

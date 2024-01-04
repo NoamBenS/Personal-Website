@@ -10,7 +10,7 @@
       "
     />
     <q-item class="labelbox">
-      <q-item-label>{{ label }}</q-item-label>
+      <q-item-label class="label">{{ label }}</q-item-label>
     </q-item>
   </q-item>
 </template>
