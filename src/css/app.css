@@ -8,6 +8,12 @@
 
 .gohome {
   align-items: center;
+  color: rgb(0, 0, 0);
+}
+
+.toolbar {
+  color: black;
+  background-color: #51c7be;
 }
 
 .introduction {
