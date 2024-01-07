@@ -1,5 +1,5 @@
 <template>
-  <q-item class="linkbox" :style="{ background: gradientColor }" :href="link">
+  <q-item class="linkbox" :style="{ background: color }" :href="link">
     <q-img
       :src="image"
       style="
@@ -10,7 +10,7 @@
       "
     />
     <q-item class="labelbox">
-      <q-item-label class="label">{{ label }}</q-item-label>
+      <q-item-label class="linklabel">{{ label }}</q-item-label>
     </q-item>
   </q-item>
 </template>
@@ -28,7 +28,7 @@ export default defineComponent({
 
     color: {
       type: String,
-      default: 'redgreen',
+      default: '#d3d3d3',
     },
 
     label: {
@@ -39,48 +39,6 @@ export default defineComponent({
     link: {
       type: String,
       default: '',
-    },
-  },
-  computed: {
-    gradientColor() {
-      const first =
-        this.color == 'redgreen'
-          ? this.redGreen()
-          : this.color == 'yellowpurple'
-          ? this.yellowPurple()
-          : this.orangeBlue();
-      const second =
-        this.color == 'redgreen'
-          ? this.redGreen1()
-          : this.color == 'yellowpurple'
-          ? this.yellowPurple1()
-          : this.orangeBlue1();
-      return `linear-gradient(135deg, ${first}, ${second})`;
-    },
-  },
-  methods: {
-    redGreen() {
-      return '#FFCCCC';
-    },
-
-    redGreen1() {
-      return '#98FB98';
-    },
-
-    yellowPurple() {
-      return '#FFFFE0';
-    },
-
-    yellowPurple1() {
-      return '#B19CD9';
-    },
-
-    orangeBlue() {
-      return '#FFDAB9';
-    },
-
-    orangeBlue1() {
-      return '#ADD8E6';
     },
   },
 });

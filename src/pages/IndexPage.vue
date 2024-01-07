@@ -1,12 +1,13 @@
 <template>
   <div class="main" style="display: flex; align-items: center">
-    <q-btn color="black" label="Cat Pics" to="/me/catsleep" />
-    <ButtonLink
-      class="linkbox"
-      v-for="button in linkBlocks"
-      :key="button.link"
-      v-bind="button"
-    />
+    <container class="introduction">
+      <ButtonLink
+        class="linkbox"
+        v-for="button in linkBlocks"
+        :key="button.link"
+        v-bind="button"
+      />
+    </container>
     <InformationBlock
       class="box"
       v-for="block in informationBlocks"
@@ -23,26 +24,14 @@ import { defineComponent } from 'vue';
 
 const blocks = [
   {
-    image: 'icons/linkedin100.png',
+    image: 'catsleep.jpeg',
     color: 'yellowpurple',
-    label: 'LinkedIn',
+    label: 'Personal Website',
     directory: '/me/catsleep',
   },
   {
-    image: 'icons/github100.png',
+    image: 'catsleep.jpeg',
     color: 'redgreen',
-    label: 'Github',
-    directory: '/me/catsleep',
-  },
-  {
-    image: 'catsleep.jpeg',
-    color: 'yellowpurple',
-    label: 'Personal Website',
-    directory: '/me/catsleep',
-  },
-  {
-    image: 'catsleep.jpeg',
-    color: 'yellowpurple',
     label: 'Stock Terminal',
     directory: '/me/catsleep',
   },
@@ -50,12 +39,6 @@ const blocks = [
     image: 'catsleep.jpeg',
     color: 'orangeblue',
     label: 'Personal Website',
-    directory: '/me/catsleep',
-  },
-  {
-    image: 'catsleep.jpeg',
-    color: 'orangeblue',
-    label: 'Stock Terminal',
     directory: '/me/catsleep',
   },
 ];
@@ -63,15 +46,15 @@ const blocks = [
 const links = [
   {
     image: 'icons/linkedin100.png',
-    color: 'yellowpurple',
+    color: '#B0CBA9',
     label: 'LinkedIn',
-    link: 'https://github.com/NoamBenS',
+    link: 'https://www.linkedin.com/in/noam-ben-simon/',
   },
   {
     image: 'icons/github100.png',
-    color: 'redgreen',
+    color: '#B0CBA9',
     label: 'Github',
-    link: 'https://www.linkedin.com/in/noam-ben-simon/',
+    link: 'https://github.com/NoamBenS',
   },
 ];
 
@@ -80,6 +63,7 @@ export default defineComponent({
 
   components: {
     InformationBlock,
+    ButtonLink,
   },
 
   setup() {
