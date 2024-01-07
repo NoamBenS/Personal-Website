@@ -1,12 +1,12 @@
 <template>
-  <q-item class="box" :style="{ background: gradientColor }" :to="directory">
+  <q-item class="linkbox" :style="{ background: gradientColor }" :href="link">
     <q-img
       :src="image"
       style="
         display: flex;
         flex-direction: table-column;
-        height: 100px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
       "
     />
     <q-item class="labelbox">
@@ -19,7 +19,7 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'InfromationBlock',
+  name: 'ButtonLink',
   props: {
     image: {
       type: String,
@@ -36,9 +36,9 @@ export default defineComponent({
       default: '',
     },
 
-    directory: {
+    link: {
       type: String,
-      default: '/',
+      default: '',
     },
   },
   computed: {

@@ -1,7 +1,12 @@
 <template>
   <div class="main" style="display: flex; align-items: center">
-    <h3>Home</h3>
     <q-btn color="black" label="Cat Pics" to="/me/catsleep" />
+    <ButtonLink
+      class="linkbox"
+      v-for="button in linkBlocks"
+      :key="button.link"
+      v-bind="button"
+    />
     <InformationBlock
       class="box"
       v-for="block in informationBlocks"
@@ -13,19 +18,20 @@
 
 <script>
 import InformationBlock from 'components/InformationBlock.vue';
+import ButtonLink from 'components/ButtonLink.vue';
 import { defineComponent } from 'vue';
 
 const blocks = [
   {
-    image: 'catsleep.jpeg',
-    color: 'redgreen',
-    label: 'Personal Website',
+    image: 'icons/linkedin100.png',
+    color: 'yellowpurple',
+    label: 'LinkedIn',
     directory: '/me/catsleep',
   },
   {
-    image: 'catsleep.jpeg',
+    image: 'icons/github100.png',
     color: 'redgreen',
-    label: 'Stock Terminal',
+    label: 'Github',
     directory: '/me/catsleep',
   },
   {
@@ -54,6 +60,21 @@ const blocks = [
   },
 ];
 
+const links = [
+  {
+    image: 'icons/linkedin100.png',
+    color: 'yellowpurple',
+    label: 'LinkedIn',
+    link: 'https://github.com/NoamBenS',
+  },
+  {
+    image: 'icons/github100.png',
+    color: 'redgreen',
+    label: 'Github',
+    link: 'https://www.linkedin.com/in/noam-ben-simon/',
+  },
+];
+
 export default defineComponent({
   name: 'MainLayout',
 
@@ -64,6 +85,7 @@ export default defineComponent({
   setup() {
     return {
       informationBlocks: blocks,
+      linkBlocks: links,
     };
   },
 });

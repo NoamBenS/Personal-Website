@@ -20,6 +20,14 @@
   width: 95vw;
 }
 
+.linkbox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .labelbox {
   background-color: rgb(255, 255, 255);
   display: flex;
