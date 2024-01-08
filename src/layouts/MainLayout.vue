@@ -28,7 +28,7 @@
     </q-drawer>
 
     <div class="footer">
-      This website and all code were made by me | Icons from
+      This website and all code were done by me | Icons from
       <a href="https://icons8.com/">icons8</a> | Fonts from
       <a href="https://www.fontspace.com/">fontspace</a> and
       <a href="https://www.dafont.com/">dafont</a>
