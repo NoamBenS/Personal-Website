@@ -86,6 +86,17 @@
   font-size: large;
 }
 
+.textbox {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  min-width: 10%;
+  max-width: 30%;
+}
+
 @font-face {
   font-family: cocogoose;
   src: url('./fonts/Cocogoose Pro Regular Trial.ttf');

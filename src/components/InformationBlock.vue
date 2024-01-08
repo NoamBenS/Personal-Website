@@ -12,6 +12,8 @@
     <q-item class="labelbox">
       <q-item-label class="label">{{ label }}</q-item-label>
     </q-item>
+
+    <q-item class="textbox">{{ text }}</q-item>
   </q-item>
 </template>
 
@@ -34,6 +36,11 @@ export default defineComponent({
     label: {
       type: String,
       default: '',
+    },
+
+    text: {
+      type: String,
+      default: 'under construction',
     },
 
     directory: {

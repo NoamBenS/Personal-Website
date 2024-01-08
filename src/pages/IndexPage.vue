@@ -27,18 +27,21 @@ const blocks = [
     image: 'catsleep.jpeg',
     color: 'yellowpurple',
     label: 'Personal Website',
+    text: 'hello, world!',
     directory: '/me/catsleep',
   },
   {
     image: 'catsleep.jpeg',
     color: 'redgreen',
     label: 'Stock Terminal',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     directory: '/me/catsleep',
   },
   {
     image: 'catsleep.jpeg',
     color: 'orangeblue',
     label: 'Personal Website',
+    text: 'hello, world!',
     directory: '/me/catsleep',
   },
 ];
