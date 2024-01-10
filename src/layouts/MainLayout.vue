@@ -27,16 +27,16 @@
       </q-list>
     </q-drawer>
 
+    <q-page-container>
+      <router-view />
+    </q-page-container>
+
     <div class="footer">
       This website and all code were done by me | Icons from
       <a href="https://icons8.com/">icons8</a> | Fonts from
       <a href="https://www.fontspace.com/">fontspace</a> and
       <a href="https://www.dafont.com/">dafont</a>
     </div>
-
-    <q-page-container>
-      <router-view />
-    </q-page-container>
   </q-layout>
 </template>
 
