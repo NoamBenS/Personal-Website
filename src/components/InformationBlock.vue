@@ -11,7 +11,7 @@
       <q-item class="labelbox">
         <q-item-label class="label">{{ label }}</q-item-label>
       </q-item>
-      <q-img :src="image" style="height: 100px; width: 100px" />
+      <q-img :src="image" style="" />
     </div>
 
     <q-item class="textbox">{{ text }}</q-item>

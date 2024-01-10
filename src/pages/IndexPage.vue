@@ -29,14 +29,14 @@ import { defineComponent } from 'vue';
 
 const blocks = [
   {
-    image: 'catsleep.jpeg',
+    image: '/images/stockterminal.png',
     color: 'yellowpurple',
     label: 'Stock Terminal',
     text: 'Stock Terminal is a Java-based CLI that uses API calls to receive current, relevant, and customizable data on requested tickers. With customizability and professional use in mind, the project is built around user freedom and functionality. My partner and I collaborated and succeeded to develop Stock Terminal as a working program within a week of work.',
     directory: '/me/catsleep',
   },
   {
-    image: 'catsleep.jpeg',
+    image: '/images/catsleep.jpeg',
     color: 'redgreen',
     label: 'Personal Website',
     text: 'This site is a great representation of my joy in programming and turning code into something functional and pleasing. This website also serves as a reflection of my dedication and passion in the field away from the classroom. As a personal project, I had the freedom to choose exactly how I wanted it to look and feel, which served as an incredibly enjoyable and fulfilling endeavor.',
