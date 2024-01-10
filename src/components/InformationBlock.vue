@@ -1,17 +1,18 @@
 <template>
   <q-item class="box" :style="{ background: gradientColor }" :to="directory">
-    <q-img
-      :src="image"
+    <div
       style="
         display: flex;
-        flex-direction: table-column;
-        height: 100px;
-        width: 60px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
       "
-    />
-    <q-item class="labelbox">
-      <q-item-label class="label">{{ label }}</q-item-label>
-    </q-item>
+    >
+      <q-item class="labelbox">
+        <q-item-label class="label">{{ label }}</q-item-label>
+      </q-item>
+      <q-img :src="image" style="height: 100px; width: 100px" />
+    </div>
 
     <q-item class="textbox">{{ text }}</q-item>
   </q-item>
