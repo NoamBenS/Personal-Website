@@ -14,7 +14,7 @@
 
 .toolbar {
   color: white;
-  background-color: #344955;
+  background-color: #5b8eab;
 }
 
 .footer {
@@ -35,6 +35,15 @@
   margin: 10px;
   width: 95vw;
   height: fit-content;
+}
+
+.header {
+  font-family: 'algoria-light';
+  font-size: x-large;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .linkbox {
@@ -94,7 +103,7 @@
   padding: 10px;
   margin: 10px;
   min-width: 10%;
-  max-width: 30%;
+  max-width: 50%;
 }
 
 @font-face {
