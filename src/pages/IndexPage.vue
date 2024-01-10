@@ -8,12 +8,17 @@
         v-bind="button"
       />
     </container>
+
+    <h class="header"> Projects </h>
+
     <InformationBlock
       class="box"
       v-for="block in informationBlocks"
       :key="block.directory"
       v-bind="block"
     />
+
+    <h class="header"> Skills </h>
   </div>
 </template>
 
@@ -26,22 +31,15 @@ const blocks = [
   {
     image: 'catsleep.jpeg',
     color: 'yellowpurple',
-    label: 'Personal Website',
-    text: 'hello, world!',
+    label: 'Stock Terminal',
+    text: 'Stock Terminal is a Java-based CLI that uses API calls to receive current, relevant, and customizable data on requested tickers. With customizability and professional use in mind, the project is built around user freedom and functionality. My partner and I collaborated and succeeded to develop Stock Terminal as a working program within a week of work.',
     directory: '/me/catsleep',
   },
   {
     image: 'catsleep.jpeg',
     color: 'redgreen',
-    label: 'Stock Terminal',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    directory: '/me/catsleep',
-  },
-  {
-    image: 'catsleep.jpeg',
-    color: 'orangeblue',
     label: 'Personal Website',
-    text: 'hello, world!',
+    text: 'This site is a great representation of my joy in programming and turning code into something functional and pleasing. This website also serves as a reflection of my dedication and passion in the field away from the classroom. As a personal project, I had the freedom to choose exactly how I wanted it to look and feel, which served as an incredibly enjoyable and fulfilling endeavor.',
     directory: '/me/catsleep',
   },
 ];
