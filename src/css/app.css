@@ -125,3 +125,8 @@
   font-family: stem-regular;
   src: url('./fonts/Stem-Regular.otf');
 }
+
+@font-face {
+  font-family: ignite;
+  src: url('./fonts/IgnitetypepersonaluseRegular-K791Z.otf');
+}
