@@ -1,12 +1,18 @@
 <template>
   <div class="main" style="display: flex; align-items: center">
     <container class="introduction">
-      <ButtonLink
-        class="linkbox"
-        v-for="button in linkBlocks"
-        :key="button.link"
-        v-bind="button"
+      <q-img
+        :src="'/images/stockterminal.png'"
+        style="max-height: 140px; max-width: 510px; display: flex"
       />
+      <div class="links">
+        <ButtonLink
+          class="linkbox"
+          v-for="button in linkBlocks"
+          :key="button.link"
+          v-bind="button"
+        />
+      </div>
     </container>
 
     <h class="header"> Projects </h>

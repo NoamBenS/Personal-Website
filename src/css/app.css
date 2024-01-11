@@ -25,10 +25,19 @@
   width: 100%;
 }
 
+.header {
+  font-family: 'algoria-light';
+  font-size: x-large;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .introduction {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(135deg, #f5c3cc, #d3d3d3);
   border-radius: 10px;
   padding: 15px;
@@ -37,13 +46,8 @@
   height: fit-content;
 }
 
-.header {
-  font-family: 'algoria-light';
-  font-size: x-large;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.links {
+  flex-direction: column;
 }
 
 .linkbox {
