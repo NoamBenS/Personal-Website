@@ -2,9 +2,21 @@
   <div class="main" style="display: flex; align-items: center">
     <container class="introduction">
       <q-img
-        :src="'/images/stockterminal.png'"
-        style="max-height: 140px; max-width: 510px; display: flex"
+        :src="'/images/me.png'"
+        style="
+          max-height: 400px;
+          max-width: 200px;
+          display: flex;
+          border-radius: 10px;
+        "
       />
+      <q-item class="textbox">
+        Hey! I'm Noam, an aspiring Computer Science and Music Theory Student at
+        Yeshiva University. <br />
+        While in school, I have worked hard to grow and develop my skillset and
+        knowledge in the field, including projects such as this website and my
+        ongoing project with my partner in creating a Stock Terminal API. <br />
+      </q-item>
       <div class="links">
         <ButtonLink
           class="linkbox"
@@ -25,6 +37,16 @@
     />
 
     <h class="header"> Skills </h>
+
+    <h class="header"> Extras </h>
+    <InformationBlock
+      class="chaosbox"
+      :image="'/images/chaos.png'"
+      :color="'orangeblue'"
+      :label="'Creativity Corner'"
+      :text="'Get to know me beyond what I do. Fair warning: The UI is really bad. But that\'s on purpose :)'"
+      :directory="'/me/catsleep'"
+    ></InformationBlock>
   </div>
 </template>
 

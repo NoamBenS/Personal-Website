@@ -13,6 +13,7 @@
         max-width: 510px;
         display: flex;
         flex-direction: table-column;
+        border-radius: 10px;
       "
     />
   </q-item>
