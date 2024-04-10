@@ -10,20 +10,23 @@
           border-radius: 10px;
         "
       />
-      <q-item class="textbox">
-        Hey! I'm Noam, an aspiring Computer Science and Music Theory Student at
-        Yeshiva University. <br />
-        While in school, I have worked hard to grow and develop my skillset and
-        knowledge in the field, including projects such as this website and my
-        ongoing project with my partner in creating a Stock Terminal API. <br />
-      </q-item>
-      <div class="links">
-        <ButtonLink
-          class="linkbox"
-          v-for="button in linkBlocks"
-          :key="button.link"
-          v-bind="button"
-        />
+      <div style="align-items: column">
+        <q-item class="textbox">
+          Hey! I'm Noam, an aspiring Computer Science and Music Theory Student
+          at Yeshiva University. <br />
+          While in school, I have worked hard to grow and develop my skillset
+          and knowledge in the field, including projects such as this website
+          and my ongoing project with my partner in creating a Stock Terminal
+          API. <br />
+        </q-item>
+        <div class="links">
+          <ButtonLink
+            class="linkbox"
+            v-for="button in linkBlocks"
+            :key="button.link"
+            v-bind="button"
+          />
+        </div>
       </div>
     </container>
 

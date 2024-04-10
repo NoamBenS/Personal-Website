@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+    <q-header>
       <q-toolbar class="toolbar">
         <q-btn
           flat
@@ -10,8 +10,9 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
-
-        <q-toolbar-title> Noam Ben Simon </q-toolbar-title>
+        <q-toolbar-title class="toolbar-title">
+          Noam Ben Simon
+        </q-toolbar-title>
       </q-toolbar>
     </q-header>
 
