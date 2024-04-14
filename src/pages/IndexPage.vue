@@ -48,7 +48,6 @@
       :color="'orangeblue'"
       :label="'Creativity Corner'"
       :text="'Get to know me beyond what I do. Fair warning: The UI is really bad. But that\'s on purpose :)'"
-      :directory="'/me/catsleep'"
     ></InformationBlock>
   </div>
 </template>
@@ -64,27 +63,25 @@ const blocks = [
     color: 'yellowpurple',
     label: 'Stock Terminal',
     text: 'Stock Terminal is a Java-based CLI that uses API calls to receive current, relevant, and customizable data on requested tickers. With customizability and professional use in mind, the project is built around user freedom and functionality. My partner and I collaborated and succeeded to develop Stock Terminal as a working program within a week of work.',
-    directory: '/me/catsleep',
   },
   {
-    image: '/images/catsleep.jpeg',
+    image: '/images/websiteimage.png',
     color: 'redgreen',
     label: 'Personal Website',
     text: 'This site is a great representation of my joy in programming and turning code into something functional and pleasing. This website also serves as a reflection of my dedication and passion in the field away from the classroom. As a personal project, I had the freedom to choose exactly how I wanted it to look and feel, which served as an incredibly enjoyable and fulfilling endeavor.',
-    directory: '/me/catsleep',
   },
 ];
 
 const links = [
   {
     image: 'icons/linkedin100.png',
-    color: '#B0CBA9',
+    color: '#FFFF99',
     label: 'LinkedIn',
     link: 'https://www.linkedin.com/in/noam-ben-simon/',
   },
   {
     image: 'icons/github100.png',
-    color: '#B0CBA9',
+    color: '#C8A2C8',
     label: 'Github',
     link: 'https://github.com/NoamBenS',
   },

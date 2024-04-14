@@ -1,21 +1,25 @@
 <template>
-  <q-item class="box" :style="{ background: gradientColor }" :to="directory">
-    <q-item class="labelbox">
-      <q-item-label class="label">{{ label }}</q-item-label>
-    </q-item>
+  <q-item class="box" :style="{ background: gradientColor }">
+    <q-expansion-item style="width: 100%">
+      <template v-slot:header>
+        <q-item class="labelbox">
+          <q-item-label class="label">{{ label }}</q-item-label>
+        </q-item>
 
-    <q-item class="textbox">{{ text }}</q-item>
+        <q-img
+          :src="image"
+          style="
+            max-height: 140px;
+            max-width: 510px;
+            display: flex;
+            flex-direction: table-column;
+            border-radius: 10px;
+          "
+        />
+      </template>
 
-    <q-img
-      :src="image"
-      style="
-        max-height: 140px;
-        max-width: 510px;
-        display: flex;
-        flex-direction: table-column;
-        border-radius: 10px;
-      "
-    />
+      <q-item class="textbox">{{ text }}</q-item>
+    </q-expansion-item>
   </q-item>
 </template>
 
@@ -43,11 +47,6 @@ export default defineComponent({
     text: {
       type: String,
       default: 'under construction',
-    },
-
-    directory: {
-      type: String,
-      default: '/',
     },
   },
   computed: {
