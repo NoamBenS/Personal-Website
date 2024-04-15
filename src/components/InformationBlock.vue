@@ -5,7 +5,7 @@
         <q-item class="labelbox">
           <q-item-label class="label">{{ label }}</q-item-label>
         </q-item>
-
+        <q-space />
         <q-img
           :src="image"
           style="
@@ -16,6 +16,7 @@
             border-radius: 10px;
           "
         />
+        <q-space />
       </template>
 
       <q-item class="textbox">{{ text }}</q-item>
