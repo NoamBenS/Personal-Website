@@ -1,17 +1,18 @@
 <template>
-  <div class="main" style="display: flex; align-items: center">
+  <div class="main" style="display: flex">
     <container class="introduction">
       <q-img
         :src="'/images/me.png'"
         style="
           max-height: 400px;
+          min-width: 252px;
           max-width: 200px;
           display: flex;
           border-radius: 10px;
         "
       />
-      <div style="align-items: column">
-        <q-item class="textbox">
+      <div style="align-items: column; flex-wrap: wrap">
+        <q-item class="introtextbox">
           Hey! I'm Noam, an aspiring Computer Science and Music Theory Student
           at Yeshiva University. <br />
           While in school, I have worked hard to grow and develop my skillset

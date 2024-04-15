@@ -46,11 +46,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   background: linear-gradient(360deg, #afeeee, #f9966b);
   border-radius: 10px;
   padding: 15px;
   margin: 10px;
   width: 95vw;
+  height: fit-content;
+}
+
+.introtextbox {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  max-width: 50vw;
   height: fit-content;
 }
 
