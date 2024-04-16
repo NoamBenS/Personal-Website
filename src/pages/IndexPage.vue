@@ -9,6 +9,7 @@
           max-width: 200px;
           display: flex;
           border-radius: 10px;
+          margin: 10px;
         "
       />
       <div style="align-items: column; flex-wrap: wrap">

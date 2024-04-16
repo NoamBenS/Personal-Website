@@ -20,7 +20,7 @@
 
 .toolbar-title {
   font-family: 'cogley';
-  font-size: 30px;
+  font-size: fit-content;
   color: black;
   text-align: center;
 }
@@ -44,9 +44,8 @@
 
 .introduction {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   background: linear-gradient(360deg, #afeeee, #f9966b);
   border-radius: 10px;
   padding: 15px;
@@ -57,21 +56,17 @@
 
 .introtextbox {
   background-color: rgb(255, 255, 255);
-  display: flex;
-  align-items: center;
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  margin: 10px;
+  margin: 10px auto;
   max-width: 50vw;
-  height: fit-content;
 }
 
 .links {
   display: flex;
   flex-direction: row;
-  width: fit-content;
-  width: 100%;
+  width: 95%;
   justify-content: center;
 }
 
@@ -81,14 +76,12 @@
   padding: 5px;
   margin: 5px;
   width: fit-content;
+  max-width: 38vw;
 }
 
 .linklabelbox {
   background-color: rgb(255, 255, 255);
-  position: relative;
   display: flex;
-  flex-direction: table-row;
-  align-items: center;
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
