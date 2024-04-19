@@ -11,7 +11,9 @@
           @click="toggleLeftDrawer"
         />
         <q-toolbar-title class="toolbar-title">
-          Noam Ben Simon
+          <a href="/" style="text-decoration: none; color: inherit">
+            Noam Ben Simon
+          </a>
         </q-toolbar-title>
       </q-toolbar>
     </q-header>

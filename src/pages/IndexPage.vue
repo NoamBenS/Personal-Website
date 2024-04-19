@@ -4,12 +4,12 @@
       <q-img
         :src="'/images/me.png'"
         style="
-          max-height: 400px;
           min-width: 252px;
           max-width: 200px;
           display: flex;
           border-radius: 10px;
           margin: 10px;
+          padding: 10px;
         "
       />
       <div style="align-items: column; flex-wrap: wrap">
@@ -37,16 +37,20 @@
     <InformationBlock
       class="box"
       v-for="block in informationBlocks"
-      :key="block.directory"
+      :key="block.label"
       v-bind="block"
     />
 
     <h class="header"> Skills </h>
+    <container class="skills">
+      <p>hi</p>
+    </container>
 
     <h class="header"> Extras </h>
     <InformationBlock
       class="chaosbox"
-      :image="'/images/chaos.png'"
+      to="creativity"
+      :image="'/images/catsleep.jpeg'"
       :color="'orangeblue'"
       :label="'Creativity Corner'"
       :text="'Get to know me beyond what I do. Fair warning: The UI is really bad. But that\'s on purpose :)'"
