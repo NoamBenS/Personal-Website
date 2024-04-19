@@ -6,7 +6,7 @@
     </div>
     <InformationBlock
       v-for="block in informationBlocks"
-      :key="block.directory"
+      :key="block.label"
       v-bind="block"
     />
   </q-page>
@@ -19,15 +19,15 @@ import { defineComponent } from 'vue';
 const blocks = [
   {
     image: 'catsleep.jpeg',
-    color: 'orange',
+    color: 'redgreen',
     label: 'Test1',
-    directory: '/',
+    text: 'nil',
   },
   {
     image: 'catsleep.jpeg',
-    color: 'green',
+    color: 'redgreen',
     label: 'Boy',
-    directory: '/',
+    text: 'nil',
   },
 ];
 
