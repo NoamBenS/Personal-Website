@@ -1,12 +1,16 @@
 <template>
-  <q-item class="skillbox" :style="{ background: 'gray' }">
+  <q-item class="skillbox" :style="{ background: '#FFDAB9' }">
     <div>
-      <div>
-        <q-item class="skilllabelbox">
-          <q-item-label class="label">{{ label }}</q-item-label>
-        </q-item>
-      </div>
-      <q-item class="textbox">{{ text }}</q-item>
+      <q-item class="skilllabelbox">
+        <q-item-label class="skilllabel" :style="{ background: background }"
+          >{{ label }}
+        </q-item-label>
+      </q-item>
+      <q-item class="skilltext">
+        <p>
+          {{ text }}
+        </p>
+      </q-item>
     </div>
   </q-item>
 </template>
@@ -24,6 +28,10 @@ export default defineComponent({
     text: {
       type: String,
       default: 'under construction',
+    },
+    background: {
+      type: String,
+      default: 'white',
     },
   },
 });

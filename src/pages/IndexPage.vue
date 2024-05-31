@@ -103,14 +103,17 @@ const skills = [
   {
     label: 'Languages',
     text: 'languages go here',
+    background: 'white',
   },
   {
     label: 'Frameworks',
     text: 'technologies go here',
+    background: 'white',
   },
   {
     label: 'Apps and Programs',
     text: 'apps/progs go here',
+    background: 'white',
   },
 ];
 

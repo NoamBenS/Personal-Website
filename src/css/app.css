@@ -145,7 +145,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background: linear-gradient(360deg, #9cea87, #e8969d);
+  background: #afeeee;
   border-radius: 10px;
   padding: 15px;
   width: 95vw;
@@ -163,7 +163,26 @@
 }
 
 .skilllabelbox {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.skilllabel {
+  font-family: 'algoria-light';
+  font-size: large;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.skilltext p {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  font-family: 'algoria-light';
+  font-size: medium;
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
