@@ -36,15 +36,20 @@
 
     <InformationBlock
       class="box"
-      v-for="block in informationBlocks"
+      v-for="block in blocks"
       :key="block.label"
       v-bind="block"
     />
 
     <h class="header"> Skills </h>
-    <container class="skills">
-      <p>hi</p>
-    </container>
+    <div class="skills">
+      <SkillsBox
+        class="skillsbox"
+        v-for="skill in skills"
+        :key="skill.label"
+        v-bind="skill"
+      />
+    </div>
 
     <h class="header"> Extras </h>
     <InformationBlock
@@ -54,13 +59,14 @@
       :color="'orangeblue'"
       :label="'Creativity Corner'"
       :text="'Get to know me beyond what I do. Fair warning: The UI is really bad. But that\'s on purpose :)'"
-    ></InformationBlock>
+    />
   </div>
 </template>
 
 <script>
 import InformationBlock from 'components/InformationBlock.vue';
 import ButtonLink from 'components/ButtonLink.vue';
+import SkillsBox from 'components/SkillsBox.vue';
 import { defineComponent } from 'vue';
 
 const blocks = [
@@ -93,18 +99,35 @@ const links = [
   },
 ];
 
+const skills = [
+  {
+    label: 'Languages',
+    text: 'languages go here',
+  },
+  {
+    label: 'Frameworks',
+    text: 'technologies go here',
+  },
+  {
+    label: 'Apps and Programs',
+    text: 'apps/progs go here',
+  },
+];
+
 export default defineComponent({
   name: 'MainLayout',
 
   components: {
     InformationBlock,
     ButtonLink,
+    SkillsBox,
   },
 
   setup() {
     return {
-      informationBlocks: blocks,
+      blocks: blocks,
       linkBlocks: links,
+      skills: skills,
     };
   },
 });
