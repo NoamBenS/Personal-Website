@@ -2,7 +2,7 @@
   <div class="main" style="display: flex">
     <container class="introduction">
       <q-img
-        :src="'/images/me.png'"
+        :src="'/images/me.jpg'"
         style="
           min-width: 252px;
           max-width: 200px;
@@ -50,16 +50,6 @@
         v-bind="skill"
       />
     </div>
-
-    <h class="header"> Extras </h>
-    <InformationBlock
-      class="chaosbox"
-      to="creativity"
-      :image="'/images/catsleep.jpeg'"
-      :color="'orangeblue'"
-      :label="'Creativity Corner'"
-      :text="'Get to know me beyond what I do. Fair warning: The UI is really bad. But that\'s on purpose :)'"
-    />
   </div>
 </template>
 
