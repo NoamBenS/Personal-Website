@@ -12,7 +12,7 @@
           padding: 10px;
         "
       />
-      <div style="align-items: column; flex-wrap: wrap">
+      <div style="align-items: column; ">
         <q-item class="introtextbox">
           Hey! I'm Noam, an aspiring Computer Science and Music Theory Student
           at Yeshiva University. <br />
@@ -86,6 +86,18 @@ const links = [
     color: '#C8A2C8',
     label: 'Github',
     link: 'https://github.com/NoamBenS',
+  },
+  {
+    image: 'icons/resume100.png',
+    color: '#77DD77',
+    label: 'Resume',
+    link: '/NoamBenSimonResume.pdf',
+  },
+  {
+    image: 'icons/email100.png',
+    color: '#FF6961',
+    label: 'Email',
+    link: 'mailto:me@noambensimon.com',
   },
 ];
 
