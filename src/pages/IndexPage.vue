@@ -12,7 +12,7 @@
           padding: 10px;
         "
       />
-      <div style="align-items: column; ">
+      <div style="align-items: column">
         <q-item class="introtextbox">
           Hey! I'm Noam, an aspiring Computer Science and Music Theory Student
           at Yeshiva University. <br />
@@ -79,7 +79,7 @@ const links = [
     image: 'icons/linkedin100.png',
     color: '#FFFF99',
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/noam-ben-simon/',
+    link: 'https://www.linkedin.com/in/noambensimon/',
   },
   {
     image: 'icons/github100.png',
@@ -138,16 +138,18 @@ const skills = [
       'ClickUp',
       'GitHub',
       'Git',
+      'TinyBird',
     ],
     iconImages: [
       '/icons/techicons/apple.png',
       '/icons/techicons/arduino.png',
       '/icons/techicons/audacity.png',
-      '/icons/techicons/clerk2.png',
+      '/icons/techicons/clerk1.png',
       '/icons/techicons/google.png',
       '/icons/techicons/clickup1.png',
       '/icons/techicons/github.png',
       '/icons/techicons/git.png',
+      '/icons/techicons/tinybird.png',
     ],
     background: 'white',
   },
