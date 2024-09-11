@@ -58,7 +58,7 @@ const linksList = [
     title: 'LinkedIn',
     caption: 'Visit My LinkedIn',
     icon: '',
-    link: 'https://www.linkedin.com/in/noam-ben-simon/',
+    link: 'https://www.linkedin.com/in/noambensimon/',
   },
 ];
 
