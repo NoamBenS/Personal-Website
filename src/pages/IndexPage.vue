@@ -104,7 +104,16 @@ const links = [
 const skills = [
   {
     label: 'Languages',
-    icons: ['Java', 'Python', 'C', 'HTML', 'CSS', 'JavaScript', 'TypeScript'],
+    icons: [
+      'Java',
+      'Python',
+      'C',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'TypeScript',
+      'GDScript',
+    ],
     iconImages: [
       '/icons/techicons/java.png',
       '/icons/techicons/python.png',
@@ -113,6 +122,7 @@ const skills = [
       '/icons/techicons/css.png',
       '/icons/techicons/javascript.png',
       '/icons/techicons/typescript.png',
+      '/icons/techicons/godot.png',
     ],
     background: 'white',
   },
@@ -139,6 +149,7 @@ const skills = [
       'GitHub',
       'Git',
       'TinyBird',
+      'Godot',
     ],
     iconImages: [
       '/icons/techicons/apple.png',
@@ -150,6 +161,7 @@ const skills = [
       '/icons/techicons/github.png',
       '/icons/techicons/git.png',
       '/icons/techicons/tinybird.png',
+      '/icons/techicons/godot.png',
     ],
     background: 'white',
   },
