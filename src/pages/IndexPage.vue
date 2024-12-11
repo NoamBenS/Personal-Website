@@ -17,9 +17,9 @@
           Hey! I'm Noam, an aspiring Computer Science and Music Theory Student
           at Yeshiva University. <br />
           While in school, I have worked hard to grow and develop my skillset
-          and knowledge in the field, including projects such as this website
-          and my ongoing project with my partner in creating a Stock Terminal
-          API. <br />
+          and knowledge in the field, including projects such as this website, a
+          stock terminal CLI, an ongoing project with my partners to develop a
+          rhythm game, and more!<br />
         </q-item>
         <div class="links">
           <ButtonLink
