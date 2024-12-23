@@ -72,6 +72,12 @@ const blocks = [
     label: 'Personal Website',
     text: 'This site is a great representation of my joy in programming and turning code into something functional and pleasing. This website also serves as a reflection of my dedication and passion in the field away from the classroom. As a personal project, I had the freedom to choose exactly how I wanted it to look and feel, which served as an incredibly enjoyable and fulfilling endeavor.',
   },
+  {
+    image: '/images/radiorideshare.png',
+    color: 'blueorange',
+    label: 'Radio Rideshare',
+    text: 'Radio Rideshare is a project that I am currentl working on with my partners. It is a rhythm games that comes with a built-in level editor, all made in-house. The game is built in Godot, and written in GDScript.',
+  },
 ];
 
 const links = [
