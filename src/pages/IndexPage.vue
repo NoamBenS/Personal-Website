@@ -97,7 +97,7 @@ const links = [
     image: 'icons/resume100.png',
     color: '#77DD77',
     label: 'Resume',
-    link: '/NoamBenSimonResume.pdf',
+    link: '/NoamBenSimonResumeDemo.pdf',
   },
   {
     image: 'icons/email100.png',
