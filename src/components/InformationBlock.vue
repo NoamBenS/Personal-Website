@@ -1,6 +1,6 @@
 <template>
   <q-item class="box" :style="{ background: gradientColor }">
-    <q-expansion-item style="width: 100%">
+    <q-expansion-item style="flex-direction: table-row; width: 100%">
       <template v-slot:header>
         <q-item class="labelbox">
           <q-item-label class="label">{{ label }}</q-item-label>
@@ -17,6 +17,9 @@
           "
         />
         <q-space />
+        <a :href="link" class="githublink">
+          <q-img :src="`/icons/techicons/github.png`" class="githubicon" />
+        </a>
       </template>
 
       <q-item class="textbox">{{ text }}</q-item>
@@ -48,6 +51,10 @@ export default defineComponent({
     text: {
       type: String,
       default: 'under construction',
+    },
+    link: {
+      type: String,
+      default: '',
     },
   },
   computed: {

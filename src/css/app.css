@@ -131,6 +131,19 @@
   font-size: large;
 }
 
+.githublink {
+  align-self: center;
+  background-color: rgb(255, 255, 255);
+  max-height: 50px;
+  border-radius: 66%;
+  margin: 10px;
+}
+
+.githubicon {
+  width: 50px;
+  height: 50px;
+}
+
 .textbox {
   background-color: rgb(255, 255, 255);
   display: flex;
