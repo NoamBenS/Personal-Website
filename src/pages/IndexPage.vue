@@ -59,27 +59,6 @@ import ButtonLink from 'components/ButtonLink.vue';
 import SkillsBox from 'components/SkillsBox.vue';
 import { defineComponent } from 'vue';
 
-const blocks = [
-  {
-    image: '/images/stockterminal.png',
-    color: 'yellowpurple',
-    label: 'Stock Terminal',
-    text: 'Stock Terminal is a Java-based CLI that uses API calls to receive current, relevant, and customizable data on requested tickers. With customizability and professional use in mind, the project is built around user freedom and functionality. My partner and I collaborated and succeeded to develop Stock Terminal as a working program within a week of work.',
-  },
-  {
-    image: '/images/websiteimage.png',
-    color: 'redgreen',
-    label: 'Personal Website',
-    text: 'This site is a great representation of my joy in programming and turning code into something functional and pleasing. This website also serves as a reflection of my dedication and passion in the field away from the classroom. As a personal project, I had the freedom to choose exactly how I wanted it to look and feel, which served as an incredibly enjoyable and fulfilling endeavor.',
-  },
-  {
-    image: '/images/radiorideshare.png',
-    color: 'blueorange',
-    label: 'Radio Rideshare',
-    text: 'Radio Rideshare is a project that I am currentl working on with my partners. It is a rhythm games that comes with a built-in level editor, all made in-house. The game is built in Godot, and written in GDScript.',
-  },
-];
-
 const links = [
   {
     image: 'icons/linkedin100.png',
@@ -104,6 +83,37 @@ const links = [
     color: '#FF6961',
     label: 'Email',
     link: 'mailto:me@noambensimon.com',
+  },
+];
+
+const blocks = [
+  {
+    image: '/images/websiteimage.png',
+    color: 'redgreen',
+    label: 'Personal Website',
+    text: 'This site is a great representation of my joy in programming and turning code into something functional and pleasing. This website also serves as a reflection of my dedication and passion in the field away from the classroom. As a personal project, I had the freedom to choose exactly how I wanted it to look and feel, which served as an incredibly enjoyable and fulfilling endeavor.',
+    link: 'https://github.com/NoamBenS/Personal-Website',
+  },
+  {
+    image: '/images/radiorideshare.png',
+    color: 'blueorange',
+    label: 'Radio Rideshare',
+    text: 'Radio Rideshare is a project that I am currentl working on with my partners. It is a rhythm games that comes with a built-in level editor, all made in-house. The game is built in Godot, and written in GDScript.',
+    link: 'https://github.com/Calverin/Radio-Rideshare',
+  },
+  {
+    image: '/images/pseudolambda.png',
+    color: 'yellowpurple',
+    label: 'Pseudo Lambda',
+    text: 'This project has been an undertaking to familiarize myself and learn the basics of the major problems and ideas behind distributed computing. This includes leader election, task scheduling, logging, fault tolerance, and more!',
+    link: 'https://github.com/NoamBenS/PseudoLambda',
+  },
+  {
+    image: '/images/stockterminal.png',
+    color: 'yellowpurple',
+    label: 'Stock Terminal',
+    text: 'Stock Terminal is a Java-based CLI that uses API calls to receive current, relevant, and customizable data on requested tickers. With customizability and professional use in mind, the project is built around user freedom and functionality. My partner and I collaborated and succeeded to develop Stock Terminal as a working program within a week of work.',
+    link: 'https://github.com/MaxFdev/StocksTerminal_SE_Project',
   },
 ];
 
