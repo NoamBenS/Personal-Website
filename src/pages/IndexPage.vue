@@ -14,8 +14,8 @@
       />
       <div style="align-items: column">
         <q-item class="introtextbox">
-          Hey! I'm Noam, an aspiring Computer Science and Music Theory Student
-          at Yeshiva University. <br />
+          Hey! I'm Noam, an aspiring Computer Science major (and Music Theory
+          minor) at Yeshiva University at Yeshiva University. <br />
           While in school, I have worked hard to grow and develop my skillset
           and knowledge in the field, including projects such as this website, a
           stock terminal CLI, an ongoing project with my partners to develop a
@@ -105,7 +105,7 @@ const blocks = [
     image: '/images/pseudolambda.png',
     color: 'yellowpurple',
     label: 'Pseudo Lambda',
-    text: 'This project has been an undertaking to familiarize myself and learn the basics of the major problems and ideas behind distributed computing. This includes leader election, task scheduling, logging, fault tolerance, and more!',
+    text: 'This is my take on a mock of AWS Lambda for serverless code execution. This project has been an undertaking to familiarize myself and learn the basics of the major problems and ideas behind distributed computing. This includes leader election, task scheduling, logging, fault tolerance, and more!',
     link: 'https://github.com/NoamBenS/PseudoLambda',
   },
   {
