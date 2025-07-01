@@ -15,7 +15,7 @@
       <div style="align-items: column">
         <q-item class="introtextbox">
           Hey! I'm Noam, an aspiring Computer Science major (and Music Theory
-          minor) at Yeshiva University at Yeshiva University. <br />
+          minor) at Yeshiva University. <br />
           While in school, I have worked hard to grow and develop my skillset
           and knowledge in the field, including projects such as this website, a
           stock terminal CLI, an ongoing project with my partners to develop a
